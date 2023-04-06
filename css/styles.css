@@ -1,0 +1,232 @@
+/* CSS Document */
+/* CSS Reset */
+
+html, body, h1, h4, h5,cnav, ul, li, main, footer, header, p, table {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #775842; 
+}
+
+h1 {
+	font-size: 2em;
+	color: #734f2f;
+}
+
+h4 {
+	font-size: 1.5em;
+	color: #ddd6cd;
+}
+
+h5 {
+	font-size: 1.5em;
+	color: #ddd6cd;
+}
+
+h6 {
+	font-size: 1.5em;
+	color: #ddd6cd;
+}
+
+header img {
+	width: 100%;
+}
+
+.hnav {
+	padding: 0;
+	min-height: 50px;
+	color: #ddd6cd;
+}
+
+.hnav ul {
+	display: block;
+	text-align: center;
+	color: #ddd6cd;
+}
+
+.hnav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 14%;
+	margin-top: 1%;
+	color: #ddd6cd;
+}
+
+.hnav a {
+	text-decoration: none;
+	color: #ddd6cd;
+}
+
+.hnav a:active {
+	color: #ddd6cd;
+}
+
+.hnav a:hover {
+	color: limegreen;
+}
+
+main {
+	background-color: #ddd6cd;
+	min-height: 600px;
+	padding: 10px;
+	border: 3%;
+}
+
+p {
+ font-size: 2em;
+ color: #734f2f;
+}
+
+#container {
+	padding: 5% 0;
+	margin: 0 auto;
+	width: 80%;
+	min-height: 500px;
+	font-size: 1em;
+	color: #734f2f; 
+}
+
+#container p {
+	font-size: 2em;
+}
+
+#container img {
+	padding-right: 2%;
+	max-width: 600px;
+	max-height: 500px;
+}
+
+.sources a {
+	color: #734f2f;
+}
+
+.sources a:hover {
+	color: limegreen;
+}
+
+.about {
+	float: right;
+}
+
+.news {
+	height: 400px;
+	width: 400px;
+	float: right;
+}
+
+.diet {
+	float: right;
+}
+
+.domestic {
+	height: 400px;
+	width: 400px;
+	float: right;
+}
+
+.index {
+	float: right;
+	height: 600px;
+	width: 600px;
+}
+
+.hedge {
+	float: right;
+	height: 600px;
+	width: 600px;
+}
+
+.home {
+	padding: 5% 0;
+	margin: 0 auto;
+	width: 80%;
+	min-height: 500px;
+	font-size: .7em;
+	color: #734f2f; 
+}
+
+.home img {
+	padding-right: 2%;
+	max-width: 600px;
+	max-height: 500px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+	color: #734f2f;
+    
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+input {
+    height: 5em;
+	width: 20em;
+	border-radius: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 1em;
+	font-weight: bold;
+	background-color: #734f2f;
+	
+}
+
+.frmButton {
+	width: 10em;	
+}
+
+.frmButton:active {
+	background-color: white;
+}
+
+
+
+.fnav {
+	padding: 0;
+	min-height: 50px;
+}
+
+.fnav ul {
+	display: block;
+	text-align: center;
+}
+
+.fnav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 14%;
+	margin-top: 1%;
+}
+
+.fnav a {
+	text-decoration: none
+}
+
+.fnav a:hover {
+	
+}
+
+footer {
+	text-align: center;
+	
+}
